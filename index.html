@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoxGenius</title>
+  <link rel="icon" href="favicon.ico" type="image/png"> <!-- Cambiado a favicon.ico -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+      <h1>VoxGenius</h1>
+      <button id="new-text-button" style="background-color: lightblue; border: none; padding: 10px; cursor: pointer; border-radius: 5px;">Nuevo Texto</button>
+    </div>
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="input-section">
+      <input type="text" id="user-input" placeholder="Escribe aquí tu pregunta...">
+      <button id="send-button">Enviar</button>
+      <button id="voice-button">🎤</button>
+      <button id="cancel-button">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- Coloca el script aquí al final del body -->
+  <script src="script.js"></script>
+</body>
+
+</html>
